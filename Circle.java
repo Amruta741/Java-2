@@ -1,27 +1,10 @@
-import java.util.Scanner;
+package Pro2;
 
-class Circle extends Shape {
-	
-	int r;
-	
-	void setRadius(int r1)
+public class Circle implements Shape{
+
+	public void area()
 	{
-		this.r=r1;
+		int r=4;
+		System.out.println("Area of circle : " +(3.14*r*r));
 	}
-	
-	
-	int getRadius()
-	{
-		return r*r;
-	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		/*Scanner sc=new Scanner(System.in);
-		System.out.println("Enter Radis :");
-		int r=sc.nextInt();
-		System.out.println("Area of Circle : "+r*r);*/
-	}
-
 }

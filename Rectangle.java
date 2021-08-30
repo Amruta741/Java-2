@@ -1,22 +1,11 @@
-import java.util.Scanner;
+package Pro2;
 
-public class Rectangle extends Shape {
-	
-	int l,b;
-	
-	void area()
+public class Rectangle implements Shape {
+
+	public void area()
 	{
-		System.out.println("Area of Rectangle : "+l*b);
+		int l=5,b=7;
+		System.out.println("Area of Reactangle : " +(l*b));
 	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		/*Scanner sc=new Scanner(System.in);
-		System.out.println("Enter length and Breadth :");
-		int l=sc.nextInt();
-		int b=sc.nextInt();
-		System.out.println("Area of Rectangle : "+l*b);*/
-	}
-
+	
 }

@@ -1,17 +1,10 @@
+package Pro2;
 
-public class Square extends Shape {
+public class Square implements Shape {
 
-	int l=34;
-	
-	void area()
+	public void area() 
 	{
-		System.out.println("Area of Square : " +l*l);
+		int s=6;
+		System.out.println("Area of Square : " +(s*s));
 	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		int l=24;
-		System.out.println("Area of Square : " +l*l);
-	}
-
 }

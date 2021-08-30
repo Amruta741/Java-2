@@ -1,11 +1,12 @@
-package area;
+package Pro2;
 
-public abstract class Shape {
+public interface Shape {
 
-	abstract void rectangleArea(int l,int b);
+
+	abstract void area();
 	
-	abstract void squareArea(int s);
+	//abstract void squareArea();
 	
-	abstract void circleArea(int r);
+	//abstract void circleArea();
 	
 }
